@@ -1,0 +1,293 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Righteous|Roboto:300,400,500,700,900&display=swap');
+
+*  {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  /* background: #eee; */
+  background: red;
+}
+
+header {
+  height: 40px;
+  background: #444;
+}
+header .logo {
+  display: inline-block;
+  color: #389c90;
+  font-size: 1.7rem;
+  padding-top: 5px;
+  margin-left: 470px;
+}
+header h1 {
+  display: inline-block;
+  font-family: 'Righteous';
+}
+
+/*****************************************************/
+
+#jumbo-header .container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+#jumbo-header .container {
+  background: #fff;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(0,0,0,1) 95%);
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(0,0,0,1) 95%), url('https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Fortnite_image1600w.jpg');
+  background-position:  75% 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 325px;
+}
+#jumbo-header .container .photo-tips {
+  display: inline-block;
+  padding: 255px 0 0 10px;
+}
+#jumbo-header .container .photo-tips .user-img{
+  display: inline-block;
+  background: url('https://progameguides.com/wp-content/uploads/2019/05/fortnite-grind-skin-icon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 5px;
+  height: 60px;
+  width: 60px;
+}
+#jumbo-header .container .photo-tips h1 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 4px;
+}
+#jumbo-header .container .photo-tips form {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 222px;
+  margin-top: 20px;
+  color: white;
+}
+#jumbo-header .container .photo-tips form .search-input input {
+display: inline-block;
+height: 32px;
+width: 300px;
+border: none;
+border-radius: 3px;
+}
+#jumbo-header .container .photo-tips form .search-input input[type=text] {
+    padding: 6px;
+}
+#jumbo-header .container .photo-tips form .search-input .search-icon {
+  display: inline-block;
+  background:#389c90;
+  height: 32px;
+  width: 40px;
+  vertical-align: middle;
+  border-radius: 2.5px;
+}
+#jumbo-header .container .photo-tips form .search-input .search-icon .fa-lg {
+  margin: 10px 0 0px 8px;
+}
+
+/*****************************************************/
+
+#jumbo-header  .jumbo-nav {
+  max-width: 980px;
+  margin: 0 auto;
+  background: white;
+  /* height: 50px; */
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+#jumbo-header .jumbo-nav a {
+display: inline-block;
+ color: black;
+ font-weight: 500;
+ text-decoration: none;
+ padding: 16px 3px;
+}
+#jumbo-header .jumbo-nav a span{
+padding: 10px 27px;
+}
+#jumbo-header .jumbo-nav a span .fas{
+color: #c7c7c7;
+letter-spacing: 3px;
+}
+
+/*****************************************************/
+
+#game-guide {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 15px
+}
+#game-guide .guide-link {
+  color: #70a5d6;
+  text-decoration: none;
+}
+#game-guide h3 .fas {
+  color: #c7c7c7;
+}
+
+/*****************************************************/
+
+#main-content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+#main-content .main-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+}
+
+/*****************************************************/
+
+#main-content .main-column .main-article {
+  width: 220px;
+  background: white;
+  float: left;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+  border-radius: 3px;
+}
+#main-content .main-column .main-article .article-menu {
+  background: #444;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px;
+}
+#main-content .main-column .main-article .article-menu span {
+  margin-left: 3px;
+}
+#main-content .main-column .main-article .menu-content {
+  font-size: 18px;
+  font-weight: 700;
+}
+#main-content .main-column .main-article .menu-content .menu-titles{
+  font-size: 16.5px;
+  padding: 8px;
+  font-weight: 500;
+  background: #d6d6d6;
+  border-bottom: 1px solid #dadada;
+}
+#main-content .main-column .main-article .menu-content li a{
+  display: block;
+  color: #70a5d6;
+  font-size: 14.5px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px;
+  border-bottom: 1px solid #dadada;
+}
+
+/*****************************************************/
+
+#main-content .main-column  .center-content{
+  width: 460px;
+  background: white;
+  float: left;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+  border-radius: 3px;
+  padding: 10px;
+}
+#main-content .main-column  .center-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+#main-content .main-column  .center-content .date {
+  color: gray;
+  padding: 8px 0;
+}
+#main-content .main-column  .center-content .hot-topic {
+  border: 1px solid red;
+  padding: 10px 0;
+}
+#main-content .main-column  .center-content .hot-topic p {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 9px;
+}
+#main-content .main-column  .center-content .hot-topic a {
+  color: #70a5d6;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding-left: 10px;
+}
+#main-content .main-column  .center-content .text-info {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 18px 0;
+  line-height: 1.5;
+}
+#main-content .main-column  .center-content img {
+  width: 100%;
+  height: 48%;
+}
+
+/*****************************************************/
+
+#main-content .main-column .sub-menu {
+  width: 276px;
+  background: white;
+  float: left;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+  border-radius: 3px;
+}
+#main-content .main-column .sub-menu .popular-article .popular-title {
+  background: #444;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px;
+}
+#main-content .main-column .sub-menu .popular-article .popular-title span {
+  margin-left: 3px;
+}
+#main-content .main-column .sub-menu .popular-article .popular-content li a {
+  display: grid;
+  grid-template-columns: 32% 68%;
+  color: #70a5d6;
+  font-size: 12px;
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  text-decoration: none;
+}
+#main-content .main-column .sub-menu .popular-article .popular-content .content-info img{
+  float: left;
+  display: block;
+  width: 78px;
+}
+#main-content .main-column .sub-menu .popular-article .popular-content .content-info .number {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background: #389c90;
+  padding: 1.5px 4px;
+  border: 1px solid white;
+  border-radius: 0 0 2px;
+}
+#main-content .main-column .sub-menu .popular-article .popular-content .info-body {
+  font-size: 15.5px;
+  line-height: 1.4;
+  float: left;
+}
+#main-content .main-column .sub-menu .popular-article .popular-content .guide-link {
+  float: right;
+  color: #70a5d6;
+  text-decoration: none;
+  padding: 6px 16px 0 0;
+  font-weight: 500;
+}
